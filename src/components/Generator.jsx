@@ -143,7 +143,7 @@ export default function Generator({
       <Button
         content={"Formulate"}
         fun={() => {
-          updateWorkout;
+          updateWorkout();
           window.location.href = "#welcome";
         }}
       />
