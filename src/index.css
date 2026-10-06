@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(to right, #1c283c, #030819);
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 0 0 #50a2ff;
+  transition: all 0.3s;
+}
+
+.box-shadow:hover {
+  transform: translate(30px -30px);
+  box-shadow: 6px 6px 0 0 #50a2ff;
+}
